@@ -1,3 +1,3 @@
 # Deno
 
-**_Something went wrong_**
+**_ Something went wrong _**
