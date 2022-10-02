@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    width: 1280px;
+}
+
+.logo {
+    width: 112px;
+    height: 66px;
+    margin-left: 121px;
+    margin-top: 21px;
+    background: url(logo_mobile_black.png);
+}
+
+nav {
+    width: 130px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a{
+    color: #000;
+}
+
+#nav-first-p {
+    margin-top: 187px;
+    margin-left: 151px;
+}
+
+#nav-second-p {
+    margin-top: 187px;
+    margin-left: 338px;
+}
+
+#nav-third-p{
+    margin-top: 187px;
+    margin-left: 500px;
+}
+
+.global {
+    width: 22px;
+    height: 21px;
+    margin-left: 121px;
+    margin-top: 184px;
+    background: url(globe);
+}
+
+.clock {
+    width: 22px;
+    height: 22px;
+    margin-left: 306px;
+    margin-top: 183px;
+    background: url(img_135744);
+}
+
+.calendar {
+    width: 20px;
+    height: 22px;
+    margin-left: 467px;
+    margin-top: 183px;
+    background: url(calendar_2);
+}
+
+h1 {
+    width: 628px;
+    height: 190px;
+    margin-left: 122px;
+    margin-top: 248px;
+    
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 101.38%;
+}
