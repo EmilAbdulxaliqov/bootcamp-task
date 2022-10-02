@@ -2,7 +2,10 @@
 
 body {
     width: 1280px;
+    margin: auto;
 }
+
+/*          DEKSTOP         */
 
 .logo {
     width: 112px;
@@ -12,15 +15,13 @@ body {
     background: url(logo_mobile_black.png);
 }
 
-nav {
-    width: 130px;
-    height: 32px;
+.nav {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
-    display: flex;
+    display: inline;
 }
 
 a:link {
@@ -28,53 +29,68 @@ a:link {
 }
 
 a{
+    display: inline;
     color: #000;
 }
 
-#nav-first-p {
-    margin-top: 187px;
-    margin-left: 151px;
-}
-
-#nav-second-p {
-    margin-top: 187px;
-    margin-left: 338px;
-}
-
-#nav-third-p{
-    margin-top: 187px;
-    margin-left: 500px;
+a:hover {
+    color: #0000ff;
 }
 
 .global {
     width: 22px;
     height: 21px;
-    margin-left: 121px;
-    margin-top: 184px;
+    padding-top: 97px;
+    padding-left: 121px;
     background: url(globe);
+}
+
+.nav-first-p {
+    padding-top: 100px;
+    padding-left: 8px;
 }
 
 .clock {
     width: 22px;
     height: 22px;
-    margin-left: 306px;
-    margin-top: 183px;
+    padding-top: 183px;
+    padding-left: 25px;
     background: url(img_135744);
+}
+
+.nav-second-p {
+    width: 129px;
+    padding-top: 187px;
+    padding-left: 10px;
 }
 
 .calendar {
     width: 20px;
     height: 22px;
-    margin-left: 467px;
-    margin-top: 183px;
+    padding-top: 183px;
+    padding-left: 25px;
     background: url(calendar_2);
+}
+
+.nav-third-p {
+    padding-top: 187px;
+    padding-left: 13px;
+}
+
+.header-section {
+    display: flex;
+}
+
+.left {
+    display: inline;
 }
 
 h1 {
     width: 628px;
     height: 190px;
     margin-left: 122px;
-    margin-top: 248px;
+    margin-top: 29px;
+    margin-bottom: 0px;
     
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -82,3 +98,204 @@ h1 {
     font-size: 80px;
     line-height: 101.38%;
 }
+
+.left > p {
+    width: 414px;
+    height: 62px;
+    margin-left: 122px;
+    margin-top: -16px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.right {
+    display: inline;
+    margin-top: 4px;
+    margin-left: 140px;
+}
+
+.right > img {
+    width: 304px;
+    height: 356px;
+}
+
+.right-ellipse {
+    width: 274px;
+    height: 41px;
+    margin-left: 31px;
+    margin-top: -21px;
+    border-radius: 50%;
+    
+    background-color: #EFEFEF;
+}
+
+.quotes {
+    width: 483.63px;
+    height: 200px;
+    margin-left: 409.39px;
+    margin-top: 67.62px;
+    
+    background-color: #1E4681;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.quotes > h3 {
+    width: 430.59px;
+    height: 113px;
+    padding-left: 26.03px;
+    padding-top: 19.26px;
+    
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    display: block;
+}
+
+.quotes > p {
+    width: 280.5px;
+    height: 45.64px;
+    padding-left: 184.61px;
+    padding-top: 0px;
+    
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    
+    text-align: right;
+}
+
+/*       TABLET      */
+
+@media (max-width: 1279px) {
+
+    .logo {
+        width: 64.87px;
+        height: 38.23px;
+        margin-left: 70.08px;
+        margin-top: 22px;
+        
+        background: url(logo_mobile_black.png);
+    }
+    
+    a:hover {
+        color: #ff0000
+    }
+
+    .global {
+        width: 12.74px;
+        height: 12.16px;
+        padding-left: 70.08px;
+        padding-top: 56.18px;
+        background: url(globe);
+    }
+    
+    .nav-first-p {
+        padding-top: 57.92px;
+        padding-left: 4.63px;
+        font-size: 12px;
+    }
+    
+    .clock {
+        width: 12.74px;
+        height: 12.74px;
+        padding-left: 14.48px;
+        padding-top: 55.6px;
+        background: url(img_135744);
+    }
+    
+    .nav-second-p {
+        width: 75.29px;
+        height: 18.53px;
+        padding-left: 5.79px;
+        padding-top: 57.92px;
+        font-size: 12px;
+    }
+    
+    .calendar {
+        width: 11.58px;
+        height: 12.74px;
+        padding-left: 10px;
+        padding-top: 55.6px;
+        background: url(calendar_2);
+    }
+    
+    .nav-third-p {
+        padding-top: 57.92px;
+        padding-left: 7.53px;
+        font-size: 12px;
+    }
+    
+    h1 {
+        width: 363.72px;
+        height: 110.04px;
+        margin-left: 70.66px;
+        margin-top: 7.53px;
+        margin-bottom: 0px;
+        font-size: 46px;
+    }
+    
+    .left > p {
+        width: 264px;
+        height: 36px;
+        margin-left: 71px;
+        margin-top: 2.75px;
+        font-size: 12px;
+    }
+    
+    .right {
+        margin-top: 2.32px;
+        margin-left: 81.08px;
+    }
+    
+    .right > img {
+        width: 176.07px;
+        height: 206.18px;
+    }
+    
+    .right-ellipse {
+        width: 158.69px;
+        height: 23.75px;
+        margin-left: 17.95px;
+        margin-top: -11.58px;
+        border-radius: 50%;
+        
+        background-color: #EFEFEF;
+    }
+    
+    .quotes {
+        width: 280.11px;
+        height: 115.83px;
+        left: 237.1px;
+        top: 39.17px;        
+    }
+    
+    .quotes > h3 {
+        width: 249.38px;
+        height: 65.45px;
+        padding-left: 15.08px;
+        padding-top: 11.15px;
+        font-size: 14px;
+    }
+    
+    .quotes > p {
+        width: 162.46px;
+        height: 26.43px;
+        padding-left: 108.22px;
+        padding-top: 0px;
+        font-size: 12px;
+    }
+
+}
+
+
+/*       MOBILE       */
+
+
+@media (max-width: )
