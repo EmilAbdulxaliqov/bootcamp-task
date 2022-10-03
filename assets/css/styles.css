@@ -1,164 +1,168 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-.dekstop{
- position: relative;
- width: 1280px;
- height: 1280px;
- display: flex;
+.dekstop{    width: 1440px;
+    height: 6657px;
 }
-h2{
-  position: absolute;
-width: 365px;
-height: 93px;
-left: 132px;
-top: 91px;
-
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 55px;
-line-height: 101.38%;
+body{
+    display: flex;
+}
+.kurse{
+    position: absolute;
+    width: 365px;
+    height: 93px;
+    left: 121px;
+    top: 1040px;
+    
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
 }
 .text-container{
- position: absolute;
- font-family: 'Roboto';
- font-style: normal;
- font-weight: 400;
- font-size: 24px;
- line-height: 150%;
-
- width: 662px;
- height: 374px;
- left: 124px;
- top: 205px;
+    position: absolute;
+    width: 662px;
+    height: 374px;
+    left: 121px;
+    top: 1151px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
 }
 .img{
-position: absolute;
-width: 314px;
-height: 315px;
-left: 976px;
-top: 226px;
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 973px;
+    top: 1175px;
 }
 .img1{
-position: absolute;
-width: 232px;
-height: 203px;
-left: 124px;
-top: 670px;
-}
-th{
- text-align: left;
+    position: absolute;
+    width: 232px;
+    height: 203px;
+    left: 121px;
+    top: 1619px;
+    
 }
 .sinif1{
- position: absolute;
-width: 150px;
-height: 39px;
-left: 488px;
-top: 740px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 130%;
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 485px;
+    top: 1689px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
 
 }
 .sinif2{
-position: absolute;
-width: 150px;
-height: 39px;
-left: 488px;
-top: 780px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 130%;
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 485px;
+    top: 1729px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
 
 }
 .sinif3{
-position: absolute;
-width: 150px;
-height: 39px;
-left: 733px;
-top: 740px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 130%;
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 730px;
+    top: 1689px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
 
 }
 .sinif4{
- position: absolute;
-width: 150px;
-height: 39px;
-left: 733px;
-top: 780px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 130%;
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 730px;
+    top: 1729px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
 
 }
 .sinif5{
- position: absolute;
- width: 150px;
- height: 39px;
- left: 976px;
- top: 740px;
-
- font-family: 'Roboto';
- font-style: normal;
- font-weight: 700;
- font-size: 25px;
- line-height: 130%;
- 
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 973px;
+    top: 1689px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    
+    
 }
 .sinif6{
-position: absolute;
-width: 150px;
-height: 39px;
-left: 976px;
-top: 780px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 130%;
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 973px;
+    top: 1729px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
 }
 .ellipsbir{
- position: absolute;
-width: 366px;
-height: 59px;
-left: 950px;
-top: 511px;
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 947px;
+    top: 1460px;
 }
 .ellipsiki{
- position: absolute;
-width: 189px;
-height: 32px;
-left: 157px;
-top: 857px;
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 154px;
+    top: 1806px;
+    
 
 }
-@media (max-width: 834px) {
+
+
+
+@media (max-width: 992px) {
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
     .dekstop{
         position: relative;
-        width: 1280px;
-        height: 1280px;
+        width: 1400px;
+        height: 1046px;
+    }
+    body{
         display: flex;
     }
-    }
-    h2{
+    .kurse{
         position: absolute;
         width: 211.4px;
         height: 53.86px;
@@ -210,7 +214,6 @@ top: 857px;
         font-weight: 700;
         font-size: 15px;
         line-height: 130%;
-    
     }
     .sinif2{
         position: absolute;
@@ -294,20 +297,22 @@ top: 857px;
         width: 109.46px;
         height: 18.53px;
         left: 89.19px;
-        top: 1055.81px;  
+        top: 1055.81px;
     }
-
+}
 @media (max-width: 375px) {
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
     .dekstop{
         position: relative;
-        width: 1280px;
-        height: 1280px;
-        display: flex
+        width: 1400px;
+        height: 1046px;
     }
-    h2{
+    body{
+        display: flex;
+    }
+    .kurse{
         position: absolute;
         width: 170.08px;
         height: 43.34px;
@@ -340,7 +345,6 @@ top: 857px;
         left: 113.12px;
         top: 918px;
     }
-    
     .sinif1{
         position: absolute;
         width: 69.9px;
@@ -395,7 +399,6 @@ top: 857px;
         font-weight: 400;
         font-size: 10px;
         line-height: 130%;
-    
     }
     .sinif5{
         position: absolute;
@@ -408,7 +411,7 @@ top: 857px;
         font-style: normal;
         font-weight: 700;
         font-size: 12px;
-        line-height: 130%; 
+        line-height: 130%;
     }
     .sinif6{
         position: absolute;
