@@ -268,9 +268,6 @@ a:hover {
         height: 23.75px;
         margin-left: 17.95px;
         margin-top: -11.58px;
-        border-radius: 50%;
-        
-        background-color: #EFEFEF;
     }
     
     .quotes {
@@ -302,7 +299,11 @@ a:hover {
 /*       MOBILE       */
 
 
-@media (max-width: 991px){
+@media (max-width: 991px) and (min-width: 375px) {
+
+    body {
+        margin: auto;
+    }
 
     .logo {
         width: 52.19px;
@@ -380,48 +381,45 @@ a:hover {
     }
     
     .right {
-        margin-left: -28.93px;
+        margin-left: -47.14px;
         margin-top: 31.15px;
     }
     
     .right > img {
         width: 141.66px;
         height: 165.89px;
+        margin-left: -80px;
+        margin-top: 99px;
     }
     
     .right-ellipse {
-        width: 158.69px;
-        height: 23.75px;
-        margin-left: 17.95px;
-        margin-top: -11.58px;
-        border-radius: 50%;
-        
-        background-color: #EFEFEF;
+        width: 127.68px;
+        height: 19.1px;
+        margin-left: -70px;
+        margin-top: -14px;
     }
     
     .quotes {
-        width: 280.11px;
-        height: 115.83px;
-        margin-left: 237.1px;
-        margin-top: 39.17px;        
+        width: 225.36px;
+        height: 93.19px;
+        margin-left: 37.98px;
+        margin-top: 47.85px;       
     }
     
     .quotes > h3 {
-        width: 249.38px;
-        height: 65.45px;
-        padding-left: 15.08px;
-        padding-top: 11.15px;
-        font-size: 14px;
+        width: 200.64px;
+        height: 52.65px;
+        padding-left: 12.13px;
+        padding-top: 8.97px;
+        font-size: 11px;
     }
     
     .quotes > p {
-        width: 162.46px;
-        height: 26.43px;
-        padding-left: 108.22px;
+        width: 130.7px;
+        height: 21.27px;
+        padding-left: 87.07px;
         padding-top: 0px;
-        font-size: 12px;
+        font-size: 10px;
     }
-
-
 
 }
